@@ -632,6 +632,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  margin-left: 35%;
 }
 
 .img-thumbnail {
@@ -1435,7 +1436,8 @@ progress {
 
   .col-lg-6 {
     flex: 0 0 auto;
-    width: 50%;
+    /* width: 50%;
+     */
   }
 
   .col-lg-7 {
@@ -8324,7 +8326,10 @@ fieldset:disabled .btn {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  /* color: #ffff; */
+  font-size: 20px;
+  margin-top: -45%;
+  text-align: center;
 }
 
 .text-reset {
@@ -10329,6 +10334,8 @@ fieldset:disabled .btn {
   .px-lg-5 {
     padding-right: 3rem !important;
     padding-left: 3rem !important;
+    color:#fff;
+    font-size: 20px;
   }
 
   .py-lg-0 {
@@ -12018,8 +12025,7 @@ body {
     width: 30%;
   }
 }
-
-.signup-section {
+.project-text .signup-section {
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%),
     url("../assets/img/bg-signup.jpg");
