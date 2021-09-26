@@ -10334,7 +10334,7 @@ fieldset:disabled .btn {
   .px-lg-5 {
     padding-right: 3rem !important;
     padding-left: 3rem !important;
-    color:#fff;
+    color: #fff;
     font-size: 20px;
   }
 
@@ -11882,16 +11882,17 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(39, 65, 212, 0.5);
+    color: rgba(87, 4, 39, 0.842);
+    font-weight: bold;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(24, 90, 233, 0.5);
+    color: rgba(58, 2, 39, 0.5);
     font-weight: bold;
   }
   #mainNav .nav-link:hover {
-    color: rgba(41, 50, 179, 0.75);
+    color: rgba(77, 4, 20, 0.75);
   }
   #mainNav .nav-link:active {
     color: #fff;
@@ -11938,16 +11939,15 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(27, 166, 221, 0.3) 0%,
-    rgba(63, 144, 221, 0.7) 75%,
-    #000 100%
-  );
-  background-position: center;
+  /* background: linear-gradient( */
+  /* to bottom, */
+  /* rgba(148, 217, 245, 0.3) 0%,
+    rgba(36, 126, 209, 0.7) 75%, */
+  background: #0082df;
+  /* background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: cover; */
 }
 .masthead h1,
 .masthead .h1 {
