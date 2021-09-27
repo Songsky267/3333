@@ -50,6 +50,7 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+    
 
     // ------------------------------------------------------------
 // assets
